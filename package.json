@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "sonar": "sonar-scanner -Dsonar.login=PUT_YOUR_TOKEN_HERE"
+    "sonar": "sonar-scanner -Dsonar.login=1631217c7ce8cec23d57501a8301d9a7aea0bd1a"
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",
