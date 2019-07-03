@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "sonar": "sonar-scanner -Dsonar.login=1631217c7ce8cec23d57501a8301d9a7aea0bd1a"
+    "sonar": "sonar-scanner -Dsonar.login=1631217c7ce8cec23d57501a8301d9a7aea0bd1a",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",
@@ -17,10 +19,11 @@
     "morgan": "~1.9.1",
     "package.json": "^2.0.1",
     "pug": "2.0.0",
-    "random-bool": "^1.0.2"
+    "random-bool": "^1.0.2",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
-    "snyk": "^1.143.2",
     "sonarqube-scanner": "^2.4.0"
-  }
+  },
+  "snyk": true
 }
