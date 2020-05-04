@@ -12,7 +12,7 @@
     "express": "~4.16.0",
     "faker": "^4.1.0",
     "http-errors": "~1.6.2",
-    "macaddress": "^0.2.9",
+    "macaddress": "^0.4.3",
     "markov-text-generator": "^1.0.0",
     "morgan": "~1.9.1",
     "package.json": "^2.0.1",
